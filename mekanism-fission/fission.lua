@@ -1,3 +1,13 @@
+-- Monitor Size: 4x7 advanced monitors
+-- basalt version: 1.6.5 (https://github.com/Pyroxenium/Basalt/releases/tag/v1.6.5)
+-- mekanism versions
+--       Mekanism-1.18.2-10.2.5.465
+--       MekanismAdditions-1.18.2-10.2.5.465
+--       MekanismGenerators-1.18.2-10.2.5.465
+--       MekanismTools-1.18.2-10.2.5.465
+-- tweaked cc version:
+--       cc-tweaked-1.18.2-1.101.0
+
 local basalt = require("basalt")
 local monitor = peripheral.wrap("right")
 local mon_width, mon_height = monitor.getSize()
